@@ -1,0 +1,53 @@
+﻿// lấy danh sách tất cả sản phẩm
+export const GET_ALL_PRODUCT_SUCCESS = "GET_ALL_PRODUCT_SUCCESS";
+export const GET_ALL_PRODUCT_FAIL = "GET_ALL_PRODUCT_FAIL";
+
+
+
+// lấy danh sách sản phẩn phân trang
+export const GET_ALL_PRODUCT_PAGING_SUCCESS = "GET_ALL_PRODUCT_PAGING_SUCCESS";
+export const GET_ALL_PRODUCT_PAGING_FAIL = "GET_ALL_PRODUCT_PAGING_FAIL";
+
+// tìm kiếm sản phẩm
+export const SEARCH_PRODUCTS_BY_NAME_SUCCESS = "SEARCH_PRODUCTS_BY_NAME_SUCCESS";
+export const SEARCH_PRODUCTS_BY_NAME_FAIL = "SEARCH_PRODUCTS_BY_NAME_FAIL";
+
+// lấy chi tiết sản phẩm theo mã sản phẩm
+export const GET_PRODUCT_DETAIL_SUCCESS = "GET_PRODUCT_DETAIL_SUCCESS";
+export const GET_PRODUCT_DETAIL_FAIL = "GET_PRODUCT_DETAIL_FAIL";
+
+// xóa sản phẩm
+export const DELETE_PRODUCT_SUCCESS = "DELETE_PRODUCT_SUCCESS";
+export const DELETE_PRODUCT_FAIL = "DELETE_PRODUCT_FAIL";
+
+// update san phaam
+export const UPDATE_PRODUCT_SUCCESS = "UPDATE_PRODUCT_SUCCESS";
+export const UPDATE_PRODUCT_FAIL = "UPDATE_PRODUCT_FAIL";
+
+// add product
+export const ADD_PRODUCT_SUCCESS = "ADD_PRODUCT_SUCCESS";
+export const ADD_PRODUCT_FAIL = "ADD_PRODUCT_FAIL";
+
+// get products list by category
+export const GET_PRODUCTS_BY_CATEGORY_SUCCESS = "GET_PRODUCTS_BY_CATEGORY_SUCCESS";
+export const GET_PRODUCTS_BY_CATEGORY_FAIL = "GET_PRODUCTS_BY_CATEGORY_FAIL";
+
+// get related products list
+export const GET_RELATED_PRODUCTS_SUCCESS = "GET_RELATED_PRODUCTS_SUCCESS";
+export const GET_RELATED_PRODUCTS_FAIL = "GET_RELATED_PRODUCTS_FAIL";
+
+
+// Add product to cart
+export const ADD_TO_CART_SUCCESS = "ADD_TO_CART_SUCCESS";
+//export const ADD_TO_CART_FAIL = "ADD_TO_CART_FAIL";
+
+// Cart minus product quantity
+export const MINUS_PRODUCT_QUANTITY_SUCCESS = "MINUS_PRODUCT_QUANTITY_SUCCESS";
+
+// Cart add product quantity
+export const ADD_PRODUCT_QUANTITY_SUCCESS = "ADD_PRODUCT_QUANTITY_SUCCESS";
+
+// remove product 
+export const CART_REMOVE_PRODUCT_SUCCESS = "CART_REMOVE_PRODUCT_SUCCESS";
+
+
